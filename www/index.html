@@ -18,7 +18,10 @@
                 }
             }
             function provaRegister(){
-                alert("Prova register 1");
+                let registerUsername = document.getElementById("register-username").value;
+                let registerPassword = document.getElementById("register-password").value;
+                users[registerUsername] = registerPassword;
+                alert("Usuario guardado correctamente");
             }
         </script>
     </head>
